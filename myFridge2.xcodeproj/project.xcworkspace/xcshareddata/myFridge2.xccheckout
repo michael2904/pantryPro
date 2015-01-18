@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C551D4E8-157E-4B80-9C16-960585D848EA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>myFridge2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A55CF3F54BC02639FAD37BE4641F6B1094DFE47C</key>
+		<string>https://github.com/michael2904/pantryPro.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>myFridge2.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A55CF3F54BC02639FAD37BE4641F6B1094DFE47C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/michael2904/pantryPro.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A55CF3F54BC02639FAD37BE4641F6B1094DFE47C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A55CF3F54BC02639FAD37BE4641F6B1094DFE47C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>myFridge2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

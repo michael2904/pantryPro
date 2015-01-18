@@ -22,6 +22,7 @@
 		403DF4851A6C0A000047C885 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403DF4821A6C0A000047C885 /* SwiftyJSON.swift */; };
 		403DF4861A6C0A000047C885 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403DF4831A6C0A000047C885 /* AppModel.swift */; };
 		403DF4871A6C0A000047C885 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403DF4841A6C0A000047C885 /* DataManager.swift */; };
+		403DF4891A6C17750047C885 /* Fridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403DF4881A6C17750047C885 /* Fridge.swift */; };
 		40B40A261A6AAF16006B4B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B40A251A6AAF16006B4B45 /* AppDelegate.swift */; };
 		40B40A2D1A6AAF16006B4B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B40A2B1A6AAF16006B4B45 /* Main.storyboard */; };
 		40B40A2F1A6AAF16006B4B45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B40A2E1A6AAF16006B4B45 /* Images.xcassets */; };
@@ -57,6 +58,7 @@
 		403DF4821A6C0A000047C885 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		403DF4831A6C0A000047C885 /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		403DF4841A6C0A000047C885 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		403DF4881A6C17750047C885 /* Fridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fridge.swift; path = ../Fridge.swift; sourceTree = "<group>"; };
 		40B40A201A6AAF16006B4B45 /* myFridge2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFridge2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B40A241A6AAF16006B4B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40B40A251A6AAF16006B4B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				40B40A251A6AAF16006B4B45 /* AppDelegate.swift */,
+				403DF4881A6C17750047C885 /* Fridge.swift */,
 				40B40A2B1A6AAF16006B4B45 /* Main.storyboard */,
 				403DF4721A6BACDE0047C885 /* ToDoTableViewController.swift */,
 				403DF4731A6BACDE0047C885 /* ToDoItemViewController.swift */,
@@ -268,6 +271,7 @@
 			files = (
 				401C09291A6AF69300855469 /* SignupVC.swift in Sources */,
 				403DF4871A6C0A000047C885 /* DataManager.swift in Sources */,
+				403DF4891A6C17750047C885 /* Fridge.swift in Sources */,
 				403DF47D1A6BE5270047C885 /* RecipeGenerator.swift in Sources */,
 				403DF4761A6BACDE0047C885 /* ToDoItemViewController.swift in Sources */,
 				403DF4851A6C0A000047C885 /* SwiftyJSON.swift in Sources */,

@@ -11,14 +11,14 @@ import Foundation
 
 class AppModel: NSObject, Printable {
   let name: String
-  let appStoreURL: String
+  let quantity: String
   
   override var description: String {
-    return "Name: \(name), URL: \(appStoreURL)\n"
+    return "Name: \(name), Quantity: \(quantity)\n"
   }
-  
+    
   init(name: String?, appStoreURL: String?) {
     self.name = name ?? ""
-    self.appStoreURL = appStoreURL ?? ""
+    self.quantity = appStoreURL ?? ""
   }
 }

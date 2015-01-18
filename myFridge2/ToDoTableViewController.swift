@@ -16,11 +16,15 @@
 import Foundation
 import UIKit
 
-class ToDoTableViewController: UITableViewController, ToDoItemDelegate {
+class ToDoTableViewController: UITableViewController {
     
     var records = [NSDictionary]()
+    var apps = [AppModel]()
     var table : MSTable?
     var user : String?
+    var counter = 0
+    var Categ :String = ""
+    
     
     
     override func viewDidLoad() {
@@ -43,10 +47,12 @@ class ToDoTableViewController: UITableViewController, ToDoItemDelegate {
         
         self.refreshControl?.beginRefreshing()
         self.onRefresh(self.refreshControl)
+        
+        
+        
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        var Categ = segue.identifier
         // Pass the selected object to the new view controller.
     }
     
@@ -63,9 +69,35 @@ class ToDoTableViewController: UITableViewController, ToDoItemDelegate {
                 println("Error: " + error.description)
                 return
             }
-            
+
             self.records = result as [NSDictionary]
             println("Information: retrieved %d records", result.count)
+            
+            let item = self.records[0]
+            
+            var invent = item["personalinventory"] as? NSString
+            //println(invent)
+            var inventNSDat = invent?.dataUsingEncoding(NSUTF8StringEncoding)
+            // Get #1 app name using SwiftyJSON
+            let json = JSON(data: inventNSDat!)
+            //println(inventNSDat)
+            
+            if let appName = json["Category"][self.Categ].array {
+                for appDict in appName {
+                    var appName: String? = appDict["Ingredient"].string
+                    var appURL: String? = appDict["Quantity"].string
+                    
+                    var app = AppModel(name: appName, appStoreURL: appURL)
+                    self.apps.append(app)
+                    
+                }
+                
+                //4
+                println(self.apps)
+                println(self.apps[3])
+                println(appName[3])
+                
+            }
             
             self.tableView.reloadData()
             self.refreshControl?.endRefreshing()
@@ -116,40 +148,17 @@ class ToDoTableViewController: UITableViewController, ToDoItemDelegate {
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return self.records.count
+        return self.apps.count
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let CellIdentifier = "Cell"
         
         let cell = tableView.dequeueReusableCellWithIdentifier(CellIdentifier, forIndexPath: indexPath) as UITableViewCell
-        let item = self.records[indexPath.row]
+        let item = self.apps[indexPath.row]
         
-        var invent = item["personalinventory"] as? NSString
-        //println(invent)
-        var inventNSDat = invent?.dataUsingEncoding(NSUTF8StringEncoding)
-        // Get #1 app name using SwiftyJSON
-            let json = JSON(data: inventNSDat!)
-        //println(inventNSDat)
-        
-            if let appName = json["Category"]["Meats"].array {
-                var apps = [AppModel]()
-                for appDict in appName {
-                    var appName: String? = appDict["Ingredient"].string
-                    var appURL: String? = appDict["Quantity"].string
-                    
-                    var app = AppModel(name: appName, appStoreURL: appURL)
-                    apps.append(app)
-                }
-                
-                //4
-                println(apps)
-                println(apps[3])
-                println(appName[3])
-                println(appName[3]["Ingredients"])
-                cell.textLabel?.text = appName[3]["Ingredients"].string
+                cell.textLabel?.text = item.description
 
-            }
         //cell.textLabel?.text = "Nothing"
         cell.textLabel?.textColor = UIColor.blackColor ()
 
