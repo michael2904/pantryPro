@@ -209,34 +209,6 @@
             </objects>
             <point key="canvasLocation" x="534.5" y="87.5"/>
         </scene>
-        <!--Recipes-->
-        <scene sceneID="xvM-0y-Ilo">
-            <objects>
-                <tableViewController title="Recipes" id="2gN-2f-CzL" customClass="RecipeGenerator" customModule="myFridge2" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="9lD-1m-p42">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="pjN-i9-GFl">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pjN-i9-GFl" id="UcB-eG-SGN">
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="2gN-2f-CzL" id="Gze-ay-vEM"/>
-                            <outlet property="delegate" destination="2gN-2f-CzL" id="w0f-v5-9Jq"/>
-                        </connections>
-                    </tableView>
-                    <tabBarItem key="tabBarItem" title="Recipes" image="first" id="PrG-rx-lXL"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uky-f9-gCT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1455.5" y="1317.5"/>
-        </scene>
         <!--My Fridge-->
         <scene sceneID="Tkv-pH-piL">
             <objects>
@@ -330,7 +302,6 @@
                     </tabBar>
                     <connections>
                         <segue destination="H1M-yP-ELS" kind="relationship" relationship="viewControllers" id="Ndh-zH-IzQ"/>
-                        <segue destination="2gN-2f-CzL" kind="relationship" relationship="viewControllers" id="irT-Bv-O54"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xk7-Pa-l5P" userLabel="First Responder" sceneMemberID="firstResponder"/>
