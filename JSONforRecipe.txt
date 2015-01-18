@@ -1,0 +1,5 @@
+{"Ingredients":["bread","beef patty", "lettuce", "tomatoes", "onions"]}
+{"Ingredients":["bread","peanut butter", "jelly"]}
+{"Ingredients":["eggs","heavy cream", "butter", "salt"," pepper"]}
+{"Ingredients":["whole chicken","potatoes", "olive oil", "salt"," pepper"]}
+{"Ingredients":["macaroni","3 tablespoons butter", "3 cups milk", "1/2 cup onion", "1 large egg", "12 ounces of sharp cheddar", " 1 teaspoon salt"," pepper"]}

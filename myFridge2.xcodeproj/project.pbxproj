@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401C09271A6AF58300855469 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C09261A6AF58300855469 /* LoginVC.swift */; };
+		401C09291A6AF69300855469 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401C09281A6AF69300855469 /* SignupVC.swift */; };
+		402134081A6B41E9006BD39A /* Meats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 402134071A6B41E9006BD39A /* Meats.jpg */; };
+		4021340B1A6B4210006BD39A /* Fruits.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 402134091A6B4210006BD39A /* Fruits.jpg */; };
+		4021340C1A6B4210006BD39A /* Vegetables.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4021340A1A6B4210006BD39A /* Vegetables.jpg */; };
+		402134131A6B59D5006BD39A /* OilsAndSpices.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 402134121A6B59D5006BD39A /* OilsAndSpices.jpg */; };
+		402134151A6B5A28006BD39A /* Snacks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 402134141A6B5A28006BD39A /* Snacks.jpg */; };
+		402134171A6B5AA8006BD39A /* Dairy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 402134161A6B5AA8006BD39A /* Dairy.jpg */; };
+		4021341D1A6BAA30006BD39A /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4021341C1A6BAA30006BD39A /* WindowsAzureMobileServices.framework */; };
+		403DF4751A6BACDE0047C885 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403DF4721A6BACDE0047C885 /* ToDoTableViewController.swift */; };
+		403DF4761A6BACDE0047C885 /* ToDoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403DF4731A6BACDE0047C885 /* ToDoItemViewController.swift */; };
+		403DF47D1A6BE5270047C885 /* RecipeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403DF47C1A6BE5270047C885 /* RecipeGenerator.swift */; };
+		403DF4851A6C0A000047C885 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403DF4821A6C0A000047C885 /* SwiftyJSON.swift */; };
+		403DF4861A6C0A000047C885 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403DF4831A6C0A000047C885 /* AppModel.swift */; };
+		403DF4871A6C0A000047C885 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403DF4841A6C0A000047C885 /* DataManager.swift */; };
 		40B40A261A6AAF16006B4B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B40A251A6AAF16006B4B45 /* AppDelegate.swift */; };
-		40B40A281A6AAF16006B4B45 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B40A271A6AAF16006B4B45 /* FirstViewController.swift */; };
-		40B40A2A1A6AAF16006B4B45 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B40A291A6AAF16006B4B45 /* SecondViewController.swift */; };
 		40B40A2D1A6AAF16006B4B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B40A2B1A6AAF16006B4B45 /* Main.storyboard */; };
 		40B40A2F1A6AAF16006B4B45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B40A2E1A6AAF16006B4B45 /* Images.xcassets */; };
 		40B40A321A6AAF16006B4B45 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40B40A301A6AAF16006B4B45 /* LaunchScreen.xib */; };
 		40B40A3E1A6AAF16006B4B45 /* myFridge2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B40A3D1A6AAF16006B4B45 /* myFridge2Tests.swift */; };
+		40E0AC191A6AED5B007A467B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E0AC181A6AED5B007A467B /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +41,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		401C09261A6AF58300855469 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		401C09281A6AF69300855469 /* SignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		402134001A6B3167006BD39A /* myFridge2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myFridge2-Bridging-Header.h"; sourceTree = "<group>"; };
+		402134071A6B41E9006BD39A /* Meats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Meats.jpg; sourceTree = "<group>"; };
+		402134091A6B4210006BD39A /* Fruits.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fruits.jpg; sourceTree = "<group>"; };
+		4021340A1A6B4210006BD39A /* Vegetables.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vegetables.jpg; sourceTree = "<group>"; };
+		402134121A6B59D5006BD39A /* OilsAndSpices.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OilsAndSpices.jpg; sourceTree = "<group>"; };
+		402134141A6B5A28006BD39A /* Snacks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Snacks.jpg; sourceTree = "<group>"; };
+		402134161A6B5AA8006BD39A /* Dairy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dairy.jpg; sourceTree = "<group>"; };
+		4021341C1A6BAA30006BD39A /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		403DF4721A6BACDE0047C885 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		403DF4731A6BACDE0047C885 /* ToDoItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItemViewController.swift; sourceTree = "<group>"; };
+		403DF47C1A6BE5270047C885 /* RecipeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeGenerator.swift; sourceTree = "<group>"; };
+		403DF4821A6C0A000047C885 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		403DF4831A6C0A000047C885 /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		403DF4841A6C0A000047C885 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		40B40A201A6AAF16006B4B45 /* myFridge2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFridge2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B40A241A6AAF16006B4B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40B40A251A6AAF16006B4B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40B40A271A6AAF16006B4B45 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		40B40A291A6AAF16006B4B45 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		40B40A2C1A6AAF16006B4B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40B40A2E1A6AAF16006B4B45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		40B40A311A6AAF16006B4B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		40B40A371A6AAF16006B4B45 /* myFridge2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myFridge2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B40A3C1A6AAF16006B4B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40B40A3D1A6AAF16006B4B45 /* myFridge2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFridge2Tests.swift; sourceTree = "<group>"; };
+		40E0AC181A6AED5B007A467B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4021341D1A6BAA30006BD39A /* WindowsAzureMobileServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +94,7 @@
 				40B40A221A6AAF16006B4B45 /* myFridge2 */,
 				40B40A3A1A6AAF16006B4B45 /* myFridge2Tests */,
 				40B40A211A6AAF16006B4B45 /* Products */,
+				402134001A6B3167006BD39A /* myFridge2-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,12 +111,20 @@
 			isa = PBXGroup;
 			children = (
 				40B40A251A6AAF16006B4B45 /* AppDelegate.swift */,
-				40B40A271A6AAF16006B4B45 /* FirstViewController.swift */,
-				40B40A291A6AAF16006B4B45 /* SecondViewController.swift */,
 				40B40A2B1A6AAF16006B4B45 /* Main.storyboard */,
+				403DF4721A6BACDE0047C885 /* ToDoTableViewController.swift */,
+				403DF4731A6BACDE0047C885 /* ToDoItemViewController.swift */,
+				4021341C1A6BAA30006BD39A /* WindowsAzureMobileServices.framework */,
 				40B40A2E1A6AAF16006B4B45 /* Images.xcassets */,
 				40B40A301A6AAF16006B4B45 /* LaunchScreen.xib */,
 				40B40A231A6AAF16006B4B45 /* Supporting Files */,
+				40E0AC181A6AED5B007A467B /* HomeViewController.swift */,
+				403DF4821A6C0A000047C885 /* SwiftyJSON.swift */,
+				403DF4831A6C0A000047C885 /* AppModel.swift */,
+				403DF4841A6C0A000047C885 /* DataManager.swift */,
+				401C09261A6AF58300855469 /* LoginVC.swift */,
+				401C09281A6AF69300855469 /* SignupVC.swift */,
+				403DF47C1A6BE5270047C885 /* RecipeGenerator.swift */,
 			);
 			path = myFridge2;
 			sourceTree = "<group>";
@@ -93,6 +132,12 @@
 		40B40A231A6AAF16006B4B45 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				402134091A6B4210006BD39A /* Fruits.jpg */,
+				4021340A1A6B4210006BD39A /* Vegetables.jpg */,
+				402134161A6B5AA8006BD39A /* Dairy.jpg */,
+				402134141A6B5A28006BD39A /* Snacks.jpg */,
+				402134071A6B41E9006BD39A /* Meats.jpg */,
+				402134121A6B59D5006BD39A /* OilsAndSpices.jpg */,
 				40B40A241A6AAF16006B4B45 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,9 +240,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4021340B1A6B4210006BD39A /* Fruits.jpg in Resources */,
+				4021340C1A6B4210006BD39A /* Vegetables.jpg in Resources */,
 				40B40A2D1A6AAF16006B4B45 /* Main.storyboard in Resources */,
+				402134131A6B59D5006BD39A /* OilsAndSpices.jpg in Resources */,
 				40B40A321A6AAF16006B4B45 /* LaunchScreen.xib in Resources */,
+				402134081A6B41E9006BD39A /* Meats.jpg in Resources */,
 				40B40A2F1A6AAF16006B4B45 /* Images.xcassets in Resources */,
+				402134151A6B5A28006BD39A /* Snacks.jpg in Resources */,
+				402134171A6B5AA8006BD39A /* Dairy.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +266,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40B40A2A1A6AAF16006B4B45 /* SecondViewController.swift in Sources */,
+				401C09291A6AF69300855469 /* SignupVC.swift in Sources */,
+				403DF4871A6C0A000047C885 /* DataManager.swift in Sources */,
+				403DF47D1A6BE5270047C885 /* RecipeGenerator.swift in Sources */,
+				403DF4761A6BACDE0047C885 /* ToDoItemViewController.swift in Sources */,
+				403DF4851A6C0A000047C885 /* SwiftyJSON.swift in Sources */,
+				403DF4861A6C0A000047C885 /* AppModel.swift in Sources */,
+				403DF4751A6BACDE0047C885 /* ToDoTableViewController.swift in Sources */,
 				40B40A261A6AAF16006B4B45 /* AppDelegate.swift in Sources */,
-				40B40A281A6AAF16006B4B45 /* FirstViewController.swift in Sources */,
+				40E0AC191A6AED5B007A467B /* HomeViewController.swift in Sources */,
+				401C09271A6AF58300855469 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +356,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO;
 			};
 			name = Debug;
 		};
@@ -332,6 +391,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -340,9 +400,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/myFridge2",
+				);
 				INFOPLIST_FILE = myFridge2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = myFridge2;
+				SWIFT_OBJC_BRIDGING_HEADER = "myFridge2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Debug;
 		};
@@ -350,9 +417,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/myFridge2",
+				);
 				INFOPLIST_FILE = myFridge2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = myFridge2;
+				SWIFT_OBJC_BRIDGING_HEADER = "myFridge2-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -370,7 +443,7 @@
 				);
 				INFOPLIST_FILE = myFridge2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = myFridge2Tests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myFridge2.app/myFridge2";
 			};
 			name = Debug;
@@ -385,7 +458,7 @@
 				);
 				INFOPLIST_FILE = myFridge2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = myFridge2Tests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myFridge2.app/myFridge2";
 			};
 			name = Release;
@@ -409,6 +482,7 @@
 				40B40A431A6AAF16006B4B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40B40A441A6AAF16006B4B45 /* Build configuration list for PBXNativeTarget "myFridge2Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +491,7 @@
 				40B40A461A6AAF16006B4B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
